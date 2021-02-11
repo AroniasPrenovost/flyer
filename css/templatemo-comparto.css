@@ -24,7 +24,7 @@ Text Color: #666
   outline: none;
 }
 
-ul, h1, h2, h3, h4, p, figure {
+ul, h1, h2, h3, h4, p, figure, ul, li {
     padding: 0;
     margin: 0;
 }
@@ -47,10 +47,14 @@ a {
 
 a:hover { text-decoration: none; }
 button:focus { outline: none; }
-p { 
+p, ul { 
   color: #666;
   line-height: 1.7; 
   margin-bottom: 35px;
+}
+
+ul {
+  margin-left:25px;
 }
 
 h1, h2, h3, h4, h5, h6 { color: #333; }
