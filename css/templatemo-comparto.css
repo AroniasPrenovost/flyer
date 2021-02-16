@@ -496,9 +496,10 @@ figure.effect-bubba:hover p {
   position:relative;
   text-align:right;
   min-height:400px; 
-  width:35%; 
+  width:70%; 
   height: 100%;
   padding-right: 10px;
+
 }
 
 .gmap-canvas {
@@ -530,6 +531,9 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 440px) {
   #contact-form { padding: 35px; }
+  .map-outer {
+    width:100%; 
+  }
 }
 
 .form-group { margin-bottom: 25px; }
